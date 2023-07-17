@@ -8,7 +8,7 @@ body{
     background: rgb(45, 45, 78);
 }
 .home__section{
-    background: url(Asset/kick.png);
+    background: url(kick.png);
     height: 20vh;
 }
 .container{
@@ -57,25 +57,25 @@ b{
     color: red;
 }
 .w{
-    background-image: url(Asset/snare.png);
+    background-image: url(snare.png);
 }
 .a{
-    background-image: url(Asset/kick.png);
+    background-image: url(kick.png);
 }
 .s{
-    background-image: url(Asset/tom1.png);
+    background-image: url(tom1.png);
 }
 .d{
-    background-image: url(Asset/tom2.png);
+    background-image: url(tom2.png);
 }
 .j{
-    background-image: url(Asset/tom3.png);
+    background-image: url(tom3.png);
 }
 .k{
-    background-image: url(Asset/tom4.png);
+    background-image: url(tom4.png);
 }
 .l{
-    background: url(Asset/crash.png);
+    background: url(crash.png);
 }
 @media (max-width: 700px) and (min-width: 1px) {
     footer{
