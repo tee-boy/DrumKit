@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: rgb(45, 45, 78);
+}
+.home__section{
+    background: url(Asset/kick.png);
+    height: 20vh;
+}
+.container{
+    font-weight: bold;
+    font-size: 7vh;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.header__text{
+    padding: 10%;
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+    text-shadow: 4px 4px rgb(231, 22, 57);
+}
+.Set{
+    margin: 1vh 10%;
+}
+.drum{
+    margin: 0.4vh;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 5px;
+    border: 1vh solid rgb(22, 22, 58);
+    padding: 0, 0, 50vh, 0;
+    color: rgb(231, 22, 57);
+    font-size: 3.5rem;
+    font-weight: bold;
+    background-color: white;
+}
+.drum:hover{
+    cursor: pointer;
+}
+.b{
+    font-size: 20vh;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 20%;
+}
+b{
+    color: red;
+}
+.w{
+    background-image: url(Asset/snare.png);
+}
+.a{
+    background-image: url(Asset/kick.png);
+}
+.s{
+    background-image: url(Asset/tom1.png);
+}
+.d{
+    background-image: url(Asset/tom2.png);
+}
+.j{
+    background-image: url(Asset/tom3.png);
+}
+.k{
+    background-image: url(Asset/tom4.png);
+}
+.l{
+    background: url(Asset/crash.png);
+}
+@media (max-width: 700px) and (min-width: 1px) {
+    footer{
+        font-size: 10px;
+    }
+    .Set{
+        margin: 1vh 27%;
+    }
+}
